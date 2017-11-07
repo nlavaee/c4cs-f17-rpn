@@ -2,6 +2,7 @@ language: python
 version:
   - 2.7.13
 install:
+  - pip install .
   - pip install coverage
 script:
-  - coverage run rpn.py
+  - coverage run make test
