@@ -4,5 +4,5 @@ version:
 install:
   - pip install coverage
 script:
-  - coverage run make test
+  - coverage run -m unittest
   - coverage report -m
