@@ -1,5 +1,5 @@
 language: python
-rvm:
+version:
   - 2.7.13
 script:
-  - py.test
+  - make test
