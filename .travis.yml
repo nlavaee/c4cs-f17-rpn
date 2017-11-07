@@ -4,4 +4,4 @@ version:
 install:
   - pip install coverage
 script:
-  - make test
+  - coverage run make test
