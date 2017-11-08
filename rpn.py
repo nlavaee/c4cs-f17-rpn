@@ -2,7 +2,8 @@
 
 import operator
 
-import colorama
+from colorama import init
+init()
 
 operators = {
     '+': operator.add,
@@ -31,6 +32,7 @@ def calculate(myarg):
 def main():
     while True:
         result = calculate(input("rpn calc> "))
+        print('\033[31m' + 'some red text')
         print("Result: ", result)
 
 if __name__ == '__main__':
