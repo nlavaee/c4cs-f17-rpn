@@ -3,6 +3,7 @@ python:
   - 3.5
 install:
   - pip install coverage
+  - pip install colorize
   - pip install python-coveralls
 script:
   - coverage run -m unittest
