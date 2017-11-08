@@ -2,6 +2,8 @@
 
 import operator
 
+import colorama
+
 operators = {
     '+': operator.add,
     '-': operator.sub,
