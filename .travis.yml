@@ -8,5 +8,6 @@ install:
 script:
   - coverage run -m unittest
   - coverage report -m
+  - python -m colorize -h
 after_success:
   - coveralls
