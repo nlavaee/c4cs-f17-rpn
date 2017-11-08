@@ -32,7 +32,7 @@ def calculate(myarg):
 def main():
     while True:
         result = calculate(input("rpn calc> "))
-        print('\033[31m' + "Result: ", result)
+        print('\033[32m' + "Result: ", result)
 
 if __name__ == '__main__':
     main()
