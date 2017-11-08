@@ -2,9 +2,6 @@
 
 import operator
 
-import colorize
-
-
 operators = {
     '+': operator.add,
     '-': operator.sub,
