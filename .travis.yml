@@ -3,11 +3,10 @@ python:
   - 3.5
 install:
   - pip install coverage
-  - pip install colorize
   - pip install python-coveralls
+  - pip install colorama
 script:
   - coverage run -m unittest
   - coverage report -m
-  - python -m colorize
 after_success:
   - coveralls
